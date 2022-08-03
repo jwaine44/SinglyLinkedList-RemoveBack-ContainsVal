@@ -103,9 +103,6 @@
      * @returns {boolean}
      */
     containsRecursive(val, current = this.head){
-        if(this.isEmpty()){
-            return false;
-        }
         if(current.data == val){
             return true
         }
