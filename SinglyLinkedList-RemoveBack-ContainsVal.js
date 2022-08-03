@@ -78,6 +78,10 @@
      * @returns {boolean}
      */
     contains(val){
+        if(this.isEmpty()){
+            return false;
+        }
+
         let current = this.head;
 
         while(current){
